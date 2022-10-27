@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  padding: 10px 50px;
+  max-width: auto;
+  margin: auto;
+}
+
+.content button {
+ 
+  outline: 0;
+  padding: 12px 20px;
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.content button:hover {
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  box-shadow: 5px 7px 9px rgba(0, 0, 0, .5);
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+  height: auto;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+  height: 1000px;
+  
+}
+
+
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+/* Content */
+.content:hover {
+  background-color: white;
+  padding: 10px;
+   box-shadow: 10px 20px 40px rgba(0, 0, 0, .5);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 80%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <center><img src="arduino.jpg" alt="arduino" style="width:350px; height: 350px;"></center>
+      <h3>Arduino Uno</h3>
+	  <p>The Arduino Uno is a microcontroller board based on the ATmega328 (datasheet). It has 14 digital input/output pins (of which 6 can be used as PWM outputs), 6 analog inputs, a 16 MHz crystal oscillator, a USB connection, a power jack, an ICSP header, and a reset button. It contains everything needed to support the microcontroller; simply connect it to a computer with a USB cable or power it with a AC-to-DC adapter or battery to get started.
+
+The Uno differs from all preceding boards in that it does not use the FTDI USB-to-serial driver chip.
+Additional features coming with the R3 version are:
+
+ATmega16U2 instead 8U2 as USB-to-Serial converter.
+1.0 pinout: added SDA and SCL pins for TWI communication placed near to the AREF pin and two other new pins placed near to the RESET pin, the IOREF that allow the shields to adapt to the voltage provided from the board and the second one is a not connected pin, that is reserved for future purposes.
+stronger RESET circuit.</p>
+  <p><button onclick="window.location.href='https://robu.in/product/arduino-uno-r3-ch340g-atmega328p-devlopment-board/'"/>Buy</button></p>
+   </div>
+   </div>
+   
+  
+  
+  <div class="column">
+    <div class="content">
+	
+    <center><img src="pi.jpg" alt="raspberry" style="width:350px; height: 350px;"></center>
+      <h3>Raspberry Pie</h3>
+	  <p>
+Raspberry Pi 4 Model B is the latest product in the popular Raspberry Pi range of computers. It offers ground-breaking increases in processor speed, multimedia performance, memory, and connectivity compared to the prior-generation Raspberry Pi 3 Model B+
+
+What’s New in Raspberry Pi 4 B?
+
+1GB/2GB/4GB Varients
+Quad-Core 64-bit Broadcom 2711, Cortex A72  Processor
+WLAN 802.11 b/g/n/ac (2,4 + 5,0 GHz)
+LAN RJ45 10/100/1000 Mbit (Gigabit LAN over USB 3.0)
+Operating Power 5V@3A  via USB Type-C Port
+Dual-Display Micro HDMI Ports which supports H 265 Decode for 4K Video @60p
+</p>
+     <p><button onclick="window.location.href='https://robu.in/product/raspberry-pi-4-model-b-with-1-gb-ram/'"/>Buy</button></p>
+
+    </div>
+  </div>
+  
+  
+  
+  <div class="column">
+    <div class="content">
+    <center><img src="ultrasonic.jpg" alt="ultrasonic" style="width:350px; height: 350px;"></center>
+      <h3>Ultrasonic sensor</h3>
+	  <p>
+This Maxbotix MB1242 I2CXL-Maxsonar-EZ4 Ultrasonic Sensor Module is for indoor use only.
+
+Features of the MB1242, I2CXL-MaxSonar-EZ4, include centimeter resolution, has the highest noise tolerance and narrowest beam width of any sensor in the I2CXL‑MaxSonar‑EZ sensor line, short to long distance detection, range information from 20cm to 765cm, up to a 40Hz read rate, and an I2C interface.
+
+The MB1242 is a great choice for applications where only larger objects need to be detected.
+
+The MB1242 from the I2CXL‑MaxSonar‑EZ line of sensors is a very small, less than one cubic inch, ultrasonic sensor component module. This sensor comes with mounting holes provided on the circuit board for easy installation in nearly all applications.
+</p>
+     <p><button onclick="window.location.href='https://robu.in/product/maxbotix-mb1242-i2cxl-maxsonar-ez4-high-performance-ultrasonic-sensor/'"/>Buy</button></p></div>
+
+   </div>
+   </div>
+   </div>
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+    <center><img src="board.jpg" alt="board" style="width:350px; height: 350px;"></center>
+      <h3>Bread Board</h3>
+	  <p>The SYB-170 Mini Solderless Breadboard is named for its 170 tie points. It has 17 columns of 10 holes, which are separated into two pairs by a central notch, and labeled 1 to 17. Each column is also labeled, with a letter from A to J to that they can be easily referenced in instructions ( like the squares on a chess board ).
+
+It has a peel and sticks adhesive backing as well as two mounting holes for M2 screws so you can anchor it down.
+
+This solderless, re-usable breadboard is made from sturdy ABS plastic housing. Great for prototyping, testing and creating add-on modules or new circuits. It’s standard nickel plated spring clips ensure longevity and firm grip. As a single unit, the PTBB-170W provides one large (170) tie-point IC circuit terminal strip.
+
+If you run out of space, the PTBB-400W can be pair with additional breadboards (below) to accommodate larger projects. Works with LEDs, transistors, diodes, capacitors, and resistors.
+
+</p>
+     <p><button onclick="window.location.href='https://robu.in/product/170-pts-mini-breadboard-syb-170-white/'"/>Buy</button></p>
+
+    </div>
+  </div>
+<!-- END GRID -->
+
+
+
+
+
+<div class="column">
+    <div class="content">
+    <center><img src="solar.jpg" alt="panel" style="width:350px; height: 350px;"></center>
+      <h3>Solar Panel</h3>
+	  <p>
+This 12 x 11 CM 6V 250mA 1.5W Mini Solar Panel provides high conversion speed and incredibly efficient output.
+
+These are the best quality solar panel we found in a comparative market with excellent performance even weak sunlight. It is Durable anti-eye enough to make a unique processing panel, set convenient enough.
+It consists of Unique technology to prevent water freeze deformation frame with Elegant picture Small portable size and easy to carry.
+
+Applications: Charging mobile phones, home lighting Other types of low power, science project, solar power water pump, small solar power system, etc.
+</p>
+     <p><button onclick="window.location.href='https://robu.in/product/1-5w-6v-250ma-solar-panel-12x11cm/'"/>Buy</button></p>
+
+    </div>
+  </div>
+
+
+
+
+
+  <div class="column">
+    <div class="content">
+      <center><img src="led.jpg" alt="Mountains" style="width:350px; height: 350px;"></center>
+      <h3>LED Display</h3>
+	  <p>
+The TM1637 4 Bits Digital Tube LED Display Module is an affordable solution for displaying the output data of your Arduino project. Though the data displayed is restricted by numbers still it allows users to display some characters too like A, B, C etc.
+
+This 7 segment LED Display has 4 digits which are controlled by TM1637 Driver Chip. It requires only two connections to control this TM1637 4 Bits Digital Tube LED Display Module. Also thanks to the I2C Bus you can control it using only 2 wires, leaving more pins available on your MicroController to connect other things.
+</p>
+     <p><button onclick="window.location.href='https://robu.in/product/tm1637-4-bits-digital-tube-led-display-module-clock-display-arduino/'"/>Buy</button></p></div>
+
+    </div>
+  
+</div>
+
+
+
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>

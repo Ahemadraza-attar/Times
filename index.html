@@ -1,0 +1,241 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+
+<title>STANS Industries.</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery/data_wo.js"></script>
+
+
+
+
+
+
+</head>
+<body>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-color: grey;
+  font-family: cursive;
+}
+
+.glow {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1 class="glow">Time Of Projects</h1>
+     
+</body>
+</html> 
+
+
+
+<div class="topnav" id="myTopnav">
+  <a href="#" class="tablink" onclick="openPage('Home', this)" id="defaultOpen">Home</a>
+  
+  <div class="dropdown">
+    <button id="dropbtn" class="tablink" onclick="openPage('Project', this)">Project 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="s_show.php" id="softwareProject" class="tablink" onclick="openPage('Project', this)">Software Projects</a>
+      <a href="el_show.php" id="electronicProject" class="tablink" onclick="openPage('Project', this)">Electronic Projects</a>
+      <a href="em_show.php" id="embeddedProject" class="tablink" onclick="openPage('Project', this)">Embedded Projects</a>
+      
+    </div>
+  </div> 
+      
+   <div class="dropdown">
+         <a href="products.html" id="products" class="tablink" onclick="openPage('Products', this)">Products</a>
+
+    
+      
+    </div> 
+  
+   <div>
+  
+  <a href="login.html" id="login" class="tablink" onclick="openPage('Login', this)">Login</a>
+  <a href="#" class="tablink" onclick="openPage('Contact', this)">Contact</a>
+  <a href="#" class="tablink" onclick="openPage('About', this)">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+</div>
+
+<div class="row">
+	
+	<div class="main">
+		<div id="Home" class="tabcontent">
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+				  
+				  <img src="images/first.jpg" style="width:100%">
+				  
+				</div>
+
+				<div class="mySlides fade">
+				  
+				  <img src="images/second.jpg" style="width:100%">
+				  
+				</div>
+
+				<div class="mySlides fade">
+				 
+				  <img src="images/third.jpg" style="width:100%">
+				  
+				</div>
+
+				<div class="mySlides fade">
+				 
+				  <img src="images/fourth.png" style="width:100%">
+				  
+				</div>
+		
+				<div class="mySlides fade">
+				  
+				  <img src="images/fifth.jpg" style="width:100%">
+				  
+				</div>
+
+				<br>
+
+				<div style="text-align:center">
+				  <span class="dot"></span> 
+				  <span class="dot"></span> 
+				  <span class="dot"></span>
+				  <span class="dot"></span> 
+				  <span class="dot"></span> 
+				</div>
+			    </div>
+			</div>
+
+
+
+		<div id="Project" class="tabcontent"></div>
+
+		<div id="products" class="tabcontent"></div>
+
+		<div id="Login" class="tabcontent">
+		
+		
+		</div>
+
+		<div id="Contact" class="tabcontent">
+
+			<div class="container" id="contact">
+			  <div style="text-align:center">
+			    <h2>Contact Us</h2>
+			  </div>
+			  <div class="row" id="contact">
+			    <div class="column" id="contact">
+			      <img src="images/contact.png" style="width:100%; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+			    </div>
+			    <div class="column" id="contact">
+
+
+			      <form action="admin/c_insert.php" method="post">
+				<label for="cname">Full Name</label>
+				<input type="text" name="name" placeholder="Your full name.." required>
+				<label for="cemail">Email id</label>
+				<input type="email" name="email" placeholder="Your email id.." required>
+				<label for="cnumber">Phone number</label>
+				<input type="tel" name="number" placeholder="+91 " required>
+				<label for="subject">Subject</label>
+				<textarea name="subject" placeholder="Write something.." style="height:170px" required></textarea>
+				<input type="submit" value="Submit">
+			      </form>
+			    </div>
+			  </div>
+			</div>
+		</div>
+
+
+		<div id="About" class="tabcontent">
+			<div class="row" id="about">
+
+			  <div class="column" id="about">
+			    <div class="content" id="about">
+			      
+			    </div>
+			  </div>
+			  <div class="column" id="about">
+			    <div class="content" id="about">
+			    <img src="images/img_avatar3.png" alt="Lights" style="width:100%">
+			      <h3>Ahemadraza Attar</h3>
+			    
+			     </div>
+  			  </div>
+
+
+			  <div class="txt" id="about">
+			 <p>Time of projects is a free projects ideas provider on different software, hardware, and embedded projects.
+                               All project ideas available here are free on this site.
+                              </p>
+
+		
+ 		</div>
+
+</div>
+</div>
+</div>
+</div>
+		
+ 		
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+<div class="footer">
+  <a class="tages">Contact with us:  </a>
+	<a href="#" class="fa fa-facebook" id="tooltip"></a>
+	<a href="#" class="fa fa-twitter" id="tooltip"></a>
+	<a href="#" class="fa fa-google" id="tooltip"></a>
+	<a href="#" class="fa fa-linkedin" id="tooltip"></a>
+	<a href="#" class="fa fa-instagram" id="tooltip"></a>
+  <h6>Copyright © 2019 Time Of Projects Pvt Ltd. All rights reserved. </h6>
+</div>
+
+
+
+<script type="text/javascript" src="js/signin.js"></script>
+<script type="text/javascript" src="js/image.js"></script>
+<script type="text/javascript" src="js/style.js"></script>
+
+</body>
+</html>
