@@ -1,0 +1,3 @@
+On Microsoft Windows systems, the normal colon (:) after a device letter has sometimes been replaced by a vertical bar (|) in file URLs. This reflected the original URL syntax, which made the colon a reserved character in a path part.
+
+Since Internet Explorer 4, file URIs have been standardized on Windows, and should follow the following scheme. This applies to all applications which use URLMON or SHLWAPI for parsing, fetching or binding to URIs. To convert a path to a URL, use UrlCreateFromPath, and to convert a URL to a path, use PathCreateFromUrl.[6] 

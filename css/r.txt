@@ -1,0 +1,77 @@
+ arduino uno 
+
+
+
+The Arduino Uno is a microcontroller board based on the ATmega328 (datasheet). It has 14 digital input/output pins (of which 6 can be used as PWM outputs), 6 analog inputs, a 16 MHz crystal oscillator, a USB connection, a power jack, an ICSP header, and a reset button. It contains everything needed to support the microcontroller; simply connect it to a computer with a USB cable or power it with a AC-to-DC adapter or battery to get started.
+
+The Uno differs from all preceding boards in that it does not use the FTDI USB-to-serial driver chip.
+Additional features coming with the R3 version are:
+
+ATmega16U2 instead 8U2 as USB-to-Serial converter.
+1.0 pinout: added SDA and SCL pins for TWI communication placed near to the AREF pin and two other new pins placed near to the RESET pin, the IOREF that allow the shields to adapt to the voltage provided from the board and the second one is a not connected pin, that is reserved for future purposes.
+stronger RESET circuit.
+
+https://robu.in/product/arduino-uno-r3-ch340g-atmega328p-devlopment-board/
+-----------------------------------------------------------------------------------
+
+raspberry pie
+
+Raspberry Pi 4 Model B is the latest product in the popular Raspberry Pi range of computers. It offers ground-breaking increases in processor speed, multimedia performance, memory, and connectivity compared to the prior-generation Raspberry Pi 3 Model B+
+
+What’s New in Raspberry Pi 4 B?
+
+1GB/2GB/4GB Varients
+Quad-Core 64-bit Broadcom 2711, Cortex A72  Processor
+WLAN 802.11 b/g/n/ac (2,4 + 5,0 GHz)
+LAN RJ45 10/100/1000 Mbit (Gigabit LAN over USB 3.0)
+Operating Power 5V@3A  via USB Type-C Port
+Dual-Display Micro HDMI Ports which supports H 265 Decode for 4K Video @60p
+
+https://robu.in/product/raspberry-pi-4-model-b-with-1-gb-ram/
+-------------------------------------------------------------------------------------
+ultrasonic sensor 
+
+This Maxbotix MB1242 I2CXL-Maxsonar-EZ4 Ultrasonic Sensor Module is for indoor use only.
+
+Features of the MB1242, I2CXL-MaxSonar-EZ4, include centimeter resolution, has the highest noise tolerance and narrowest beam width of any sensor in the I2CXL‑MaxSonar‑EZ sensor line, short to long distance detection, range information from 20cm to 765cm, up to a 40Hz read rate, and an I2C interface.
+
+The MB1242 is a great choice for applications where only larger objects need to be detected.
+
+The MB1242 from the I2CXL‑MaxSonar‑EZ line of sensors is a very small, less than one cubic inch, ultrasonic sensor component module. This sensor comes with mounting holes provided on the circuit board for easy installation in nearly all applications.
+
+https://robu.in/product/maxbotix-mb1242-i2cxl-maxsonar-ez4-high-performance-ultrasonic-sensor/
+
+-----------------------------------------------------------------------------------------------------------------
+ bread board
+
+The SYB-170 Mini Solderless Breadboard is named for its 170 tie points. It has 17 columns of 10 holes, which are separated into two pairs by a central notch, and labeled 1 to 17. Each column is also labeled, with a letter from A to J to that they can be easily referenced in instructions ( like the squares on a chess board ).
+
+It has a peel and sticks adhesive backing as well as two mounting holes for M2 screws so you can anchor it down.
+
+This solderless, re-usable breadboard is made from sturdy ABS plastic housing. Great for prototyping, testing and creating add-on modules or new circuits. It’s standard nickel plated spring clips ensure longevity and firm grip. As a single unit, the PTBB-170W provides one large (170) tie-point IC circuit terminal strip.
+
+If you run out of space, the PTBB-400W can be pair with additional breadboards (below) to accommodate larger projects. Works with LEDs, transistors, diodes, capacitors, and resistors.
+
+ https://robu.in/product/170-pts-mini-breadboard-syb-170-white/
+------------------------------------------------------------------------------
+
+solar panel
+
+This 12 x 11 CM 6V 250mA 1.5W Mini Solar Panel provides high conversion speed and incredibly efficient output.
+
+These are the best quality solar panel we found in a comparative market with excellent performance even weak sunlight. It is Durable anti-eye enough to make a unique processing panel, set convenient enough.
+It consists of Unique technology to prevent water freeze deformation frame with Elegant picture Small portable size and easy to carry.
+
+Applications: Charging mobile phones, home lighting Other types of low power, science project, solar power water pump, small solar power system, etc.
+
+https://robu.in/product/1-5w-6v-250ma-solar-panel-12x11cm/
+--------------------------------------------------------------------------------
+led panel
+
+The TM1637 4 Bits Digital Tube LED Display Module is an affordable solution for displaying the output data of your Arduino project. Though the data displayed is restricted by numbers still it allows users to display some characters too like A, B, C etc.
+
+This 7 segment LED Display has 4 digits which are controlled by TM1637 Driver Chip. It requires only two connections to control this TM1637 4 Bits Digital Tube LED Display Module. Also thanks to the I2C Bus you can control it using only 2 wires, leaving more pins available on your MicroController to connect other things.
+
+https://robu.in/product/tm1637-4-bits-digital-tube-led-display-module-clock-display-arduino/
+-------------------------------------------------------------------------------------------------------------------------------------
+

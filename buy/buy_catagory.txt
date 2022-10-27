@@ -1,0 +1,2 @@
+		  <h3>Information Catagory</h3>
+		  <p>Information Catagory is where the heart is..</p>
